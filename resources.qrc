@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/Appfiles">
+        <file>App.css</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>images/product.png</file>
+        <file>images/purchase.jpg</file>
+        <file>images/sale.gif</file>
+        <file>images/stock.jpg</file>
+    </qresource>
+</RCC>

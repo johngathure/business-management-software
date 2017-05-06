@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1191</width>
+    <height>743</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>BLUESOFT</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="minimumSize">
+       <size>
+        <width>221</width>
+        <height>650</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>221</width>
+        <height>681</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>202</width>
+         <height>671</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="Options_verticalLayout">
+        <item>
+         <widget class="QCommandLinkButton" name="Sales_commandLinkButton">
+          <property name="maximumSize">
+           <size>
+            <width>180</width>
+            <height>150</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Sales</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="Sales_groupBox">
+          <property name="maximumSize">
+           <size>
+            <width>180</width>
+            <height>100</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>Sales</string>
+          </property>
+          <widget class="QPushButton" name="ViewSales_pushButton">
+           <property name="geometry">
+            <rect>
+             <x>11</x>
+             <y>20</y>
+             <width>150</width>
+             <height>25</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>View</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="NewSale_pushButton">
+           <property name="geometry">
+            <rect>
+             <x>11</x>
+             <y>53</y>
+             <width>150</width>
+             <height>25</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>New</string>
+           </property>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCommandLinkButton" name="Purchases_commandLinkButton">
+          <property name="maximumSize">
+           <size>
+            <width>180</width>
+            <height>150</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Purchases</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="Purchases_groupBox">
+          <property name="maximumSize">
+           <size>
+            <width>180</width>
+            <height>100</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>Purchases</string>
+          </property>
+          <widget class="QPushButton" name="ViewPurchase_pushButton">
+           <property name="geometry">
+            <rect>
+             <x>11</x>
+             <y>24</y>
+             <width>150</width>
+             <height>25</height>
+            </rect>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>150</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>View</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="NewPurchases_pushButton">
+           <property name="geometry">
+            <rect>
+             <x>11</x>
+             <y>53</y>
+             <width>150</width>
+             <height>25</height>
+            </rect>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>New</string>
+           </property>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCommandLinkButton" name="Products_commandLinkButton">
+          <property name="maximumSize">
+           <size>
+            <width>180</width>
+            <height>150</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Products</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="Products_groupBox">
+          <property name="minimumSize">
+           <size>
+            <width>180</width>
+            <height>100</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>180</width>
+            <height>100</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>Products</string>
+          </property>
+          <widget class="QPushButton" name="ViewProduct_pushButton">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>53</y>
+             <width>150</width>
+             <height>25</height>
+            </rect>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>View</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="NewProduct_pushButton">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>24</y>
+             <width>150</width>
+             <height>25</height>
+            </rect>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>Add New</string>
+           </property>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCommandLinkButton" name="Stock_commandLinkButton">
+          <property name="maximumSize">
+           <size>
+            <width>180</width>
+            <height>150</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Stock</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="Stock_groupBox">
+          <property name="maximumSize">
+           <size>
+            <width>180</width>
+            <height>120</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>Stock</string>
+          </property>
+          <widget class="QPushButton" name="ViewStock_pushButton">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>12</y>
+             <width>150</width>
+             <height>25</height>
+            </rect>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>View</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="Report_pushButton">
+           <property name="geometry">
+            <rect>
+             <x>11</x>
+             <y>40</y>
+             <width>150</width>
+             <height>25</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Report</string>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_2">
+      <property name="minimumSize">
+       <size>
+        <width>350</width>
+        <height>590</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>271</width>
+        <height>590</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>321</width>
+         <height>531</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="controlarea_VL"/>
+      </widget>
+      <widget class="QLabel" name="Info_label">
+       <property name="geometry">
+        <rect>
+         <x>6</x>
+         <y>569</y>
+         <width>331</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Comic Sans MS</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_3">
+      <property name="minimumSize">
+       <size>
+        <width>590</width>
+        <height>615</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>590</width>
+        <height>615</height>
+       </size>
+      </property>
+      <property name="sizeIncrement">
+       <size>
+        <width>691</width>
+        <height>651</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>541</width>
+         <height>541</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="workspacearea_VL"/>
+      </widget>
+      <widget class="QLabel" name="attendant_label">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>580</y>
+         <width>321</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="datetime_label">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>580</y>
+         <width>211</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1191</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuNEW">
+    <property name="title">
+     <string>NEW</string>
+    </property>
+    <addaction name="action_NewSale"/>
+    <addaction name="separator"/>
+    <addaction name="action_NewPurchase"/>
+    <addaction name="separator"/>
+    <addaction name="action_NewProduct"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuVIEW">
+    <property name="title">
+     <string>VIEW</string>
+    </property>
+    <addaction name="action_ViewSales"/>
+    <addaction name="separator"/>
+    <addaction name="action_ViewPurchases"/>
+    <addaction name="separator"/>
+    <addaction name="action_ViewProducts"/>
+    <addaction name="separator"/>
+    <addaction name="action_ViewStock"/>
+    <addaction name="separator"/>
+    <addaction name="action_ViewReport"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>HELP</string>
+    </property>
+    <addaction name="action_About"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuUSERS">
+    <property name="title">
+     <string>USERS</string>
+    </property>
+    <addaction name="action_NewUser"/>
+    <addaction name="separator"/>
+    <addaction name="actionMODIFY"/>
+    <addaction name="separator"/>
+    <addaction name="actionDELETE"/>
+    <addaction name="separator"/>
+   </widget>
+   <addaction name="menuNEW"/>
+   <addaction name="menuVIEW"/>
+   <addaction name="menuUSERS"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_NewSale"/>
+   <addaction name="action_ViewSales"/>
+   <addaction name="separator"/>
+   <addaction name="action_NewPurchase"/>
+   <addaction name="action_ViewPurchases"/>
+   <addaction name="separator"/>
+   <addaction name="action_ViewStock"/>
+   <addaction name="action_ViewReport"/>
+   <addaction name="separator"/>
+   <addaction name="action_ViewProducts"/>
+   <addaction name="action_NewProduct"/>
+   <addaction name="separator"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action_NewSale">
+   <property name="icon">
+    <iconset resource="app_resource.qrc">
+     <normaloff>:/images/images/sale.gif</normaloff>:/images/images/sale.gif</iconset>
+   </property>
+   <property name="text">
+    <string>Sale</string>
+   </property>
+   <property name="toolTip">
+    <string>New sale</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="action_NewPurchase">
+   <property name="icon">
+    <iconset resource="app_resource.qrc">
+     <normaloff>:/images/images/purchase.jpg</normaloff>:/images/images/purchase.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Purchase</string>
+   </property>
+   <property name="toolTip">
+    <string>New purchase</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="action_NewProduct">
+   <property name="icon">
+    <iconset resource="app_resource.qrc">
+     <normaloff>:/images/images/product.png</normaloff>:/images/images/product.png</iconset>
+   </property>
+   <property name="text">
+    <string>Product</string>
+   </property>
+   <property name="toolTip">
+    <string>Add new product</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="action_ViewSales">
+   <property name="icon">
+    <iconset resource="app_resource.qrc">
+     <normaloff>:/images/images/sale.gif</normaloff>:/images/images/sale.gif</iconset>
+   </property>
+   <property name="text">
+    <string>Sales</string>
+   </property>
+   <property name="toolTip">
+    <string>View sales</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="action_ViewPurchases">
+   <property name="icon">
+    <iconset resource="app_resource.qrc">
+     <normaloff>:/images/images/purchase.jpg</normaloff>:/images/images/purchase.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Purchases</string>
+   </property>
+   <property name="toolTip">
+    <string>View Purchases</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="action_ViewProducts">
+   <property name="icon">
+    <iconset resource="app_resource.qrc">
+     <normaloff>:/images/images/product.png</normaloff>:/images/images/product.png</iconset>
+   </property>
+   <property name="text">
+    <string>Products</string>
+   </property>
+   <property name="toolTip">
+    <string>View products</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="action_ViewStock">
+   <property name="icon">
+    <iconset resource="app_resource.qrc">
+     <normaloff>:/images/images/stock.jpg</normaloff>:/images/images/stock.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Stock</string>
+   </property>
+   <property name="toolTip">
+    <string>view stock</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="action_ViewReport">
+   <property name="icon">
+    <iconset resource="app_resource.qrc">
+     <normaloff>:/images/images/report.jpg</normaloff>:/images/images/report.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Report</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="action_NewUser">
+   <property name="icon">
+    <iconset resource="app_resource.qrc">
+     <normaloff>:/images/images/new-user.png</normaloff>:/images/images/new-user.png</iconset>
+   </property>
+   <property name="text">
+    <string>Add</string>
+   </property>
+   <property name="toolTip">
+    <string>Add user</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionMODIFY">
+   <property name="icon">
+    <iconset resource="app_resource.qrc">
+     <normaloff>:/images/images/edit-user.png</normaloff>:/images/images/edit-user.png</iconset>
+   </property>
+   <property name="text">
+    <string>Update</string>
+   </property>
+   <property name="toolTip">
+    <string>Edit account</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionDELETE">
+   <property name="icon">
+    <iconset resource="app_resource.qrc">
+     <normaloff>:/images/images/delete-user.png</normaloff>:/images/images/delete-user.png</iconset>
+   </property>
+   <property name="text">
+    <string>Delete</string>
+   </property>
+   <property name="toolTip">
+    <string>Delete account</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="action_About">
+   <property name="text">
+    <string>About</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="app_resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

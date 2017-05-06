@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/Appfiles">
+        <file>App.css</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>images/product.png</file>
+        <file>images/purchase.jpg</file>
+        <file>images/sale.gif</file>
+        <file>images/stock.jpg</file>
+        <file>images/new-user.png</file>
+        <file>images/edit-user.png</file>
+        <file>images/delete-user.png</file>
+        <file>images/documentation.jpg</file>
+        <file>images/report.jpg</file>
+    </qresource>
+</RCC>
